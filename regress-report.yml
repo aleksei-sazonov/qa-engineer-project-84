@@ -42,16 +42,16 @@ bugreports:
     Проверка смены языка сайта
    status: fail
   
- bugreports: 
-   - summary: |
+bugreports: 
+ - summary: |
       Описание товаров остается на английском языке
-     environment: |
+   environment: |
       - Google Chrome
       - Version 121.0.6167.140 (Official Build) (64-bit)
       - Windows 11 Enterprise
-     steps-to-reproduce: |
+   steps-to-reproduce: |
       Нажимаем на контекстное меню Language, выбираем русский язык 
-     expected-result: |
+   expected-result: |
       Меню сайта и описание товаров меняеются на русский язык
-     actual-result: |
+   actual-result: |
       Язык меню меняется на русский, язык описания товаров остается английским
