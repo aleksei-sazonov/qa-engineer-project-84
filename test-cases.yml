@@ -58,12 +58,12 @@
   prerequisites: |
    Сайт открыт на главной странице, поисковая строка пустая, категория товара или бренд не выбраны
   test-data: |
-  price from 20 to 60,  Category home-decoration
- steps:
-  - выбираем в разделе Categories "home-decoration", 
-  - в полях ввода диапазона цен выставляем значение от 20 до 60
- expected-result: |
-  На экране появдяются все товары категории home-decoration в ценовом диапазоне от 20 до 60
+   price from 20 to 60,  Category home-decoration
+  steps:
+   - выбираем в разделе Categories "home-decoration", 
+   - в полях ввода диапазона цен выставляем значение от 20 до 60
+  expected-result: |
+   На экране появдяются все товары категории home-decoration в ценовом диапазоне от 20 до 60
  
 - summary: |
    Проверка возможности фильтрации товара клитентом негативный сценарий
