@@ -15,21 +15,7 @@ test cases:
  - summary: |
     Проверка возможности фильтрации товара клитентом
    status: fail
-   
-bugreports: 
- - summary: |
-    Товар не сортируется по цене
-   environment: |
-    - Google Chrome
-    - Version 121.0.6167.140 (Official Build) (64-bit)
-    - Windows 11 Enterprise
-   steps-to-reproduce: |
-    выбираем в разделе Categories "home-decoration", в полях ввода диапазона цен выставляем значение от 20 до 60. 
-   expected-result: |
-    На странице остаются товары подходящие под данные категорию и цену
-   actual-result: |
-    В спике отсортированных товаров не хватает одного товара подходящего под данные категории. (Handcraft Chinese style)
-
+  
  - summary: |
     Проверка возможности просмотра дополнительной информации по товару
    status: pass
@@ -55,3 +41,17 @@ bugreports:
     Меню сайта и описание товаров меняеются на русский язык
    actual-result: |
     Язык меню меняется на русский, язык описания товаров остается английским
+
+bugreports: 
+ - summary: |
+    Товар не сортируется по цене
+   environment: |
+    - Google Chrome
+    - Version 121.0.6167.140 (Official Build) (64-bit)
+    - Windows 11 Enterprise
+   steps-to-reproduce: |
+    выбираем в разделе Categories "home-decoration", в полях ввода диапазона цен выставляем значение от 20 до 60. 
+   expected-result: |
+    На странице остаются товары подходящие под данные категорию и цену
+   actual-result: |
+    В спике отсортированных товаров не хватает одного товара подходящего под данные категории. (Handcraft Chinese style)
