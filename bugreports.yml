@@ -1,12 +1,25 @@
 summary: |
-    Товар не сортируется по цене
+- Товар не сортируется по цене
 environment: |
-    Google Chrome
-    Version 121.0.6167.140 (Official Build) (64-bit)
-    Windows 11 Enterprise
+- Google Chrome
+-Version 121.0.6167.140 (Official Build) (64-bit)
+- Windows 11 Enterprise
 steps-to-reproduce: |
-    выбираем в разделе Categories "home-decoration", в полях ввода диапазона цен выставляем значение от 20 до 60. 
+- выбираем в разделе Categories "home-decoration", в полях ввода диапазона цен выставляем значение от 20 до 60. 
 expected-result: |
-    На странице остаются товары подходящие под данные категорию и цену
+- На странице остаются товары подходящие под данные категорию и цену
 actual-result: |
-    В спике отсортированных товаров не хватает одного товара подходящего под данные категории. (Handcraft Chinese style)
+- В спике отсортированных товаров не хватает одного товара подходящего под данные категории. (Handcraft Chinese style)
+
+summary: |
+ Описание товаров остается на английском языке
+environment: |
+- Google Chrome
+- Version 121.0.6167.140 (Official Build) (64-bit)
+- Windows 11 Enterprise
+steps-to-reproduce: |
+- Нажимаем на контекстное меню Language, выбираем русский язык 
+expected-result: |
+- Меню сайта и описание товаров меняеются на русский язык
+actual-result: |
+- Язык меню меняется на русский, язык описания товаров остается англ
