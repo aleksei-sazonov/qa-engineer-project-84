@@ -42,8 +42,7 @@ bugreports:
     Проверка смены языка сайта
    status: fail
   
-  
-bugreports: 
+ bugreports: 
    - summary: |
       Описание товаров остается на английском языке
      environment: |
