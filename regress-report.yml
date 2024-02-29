@@ -1,29 +1,25 @@
 - summary: |
       Проверка возможности поиска клиентом товара по ключевому слову
-status: pass
-
+  status: pass
+  
 - summary: |
       Проверка возможности поиска клиентом товара по категории
-status: pass
+  status: pass
 
 - summary: |
       Проверка возможности поиска клиентом товара по бренду
-status: pass
-
+  status: pass
 
 - summary: |
       Проверка возможности фильтрации товара клитентом
-status: fail
-
+  status: fail
 
 - summary: |
       Проверка возможности просмотра дополнительной информации по товару
-status: pass
-
+  status: pass
 
 - summary: |
       Проверка возможности добавления товара в корзину
-status: pass
-
-
- bugreports: []
+  status: pass
+  
+  bugreports: []
