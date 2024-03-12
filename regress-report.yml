@@ -49,7 +49,7 @@ test-cases:
     status: pass
  
   - summary: |
-     Проверка адоптивности домашней страницы
+     Проверка адаптивности домашней страницы
     status: pass
 
   - summary: |
