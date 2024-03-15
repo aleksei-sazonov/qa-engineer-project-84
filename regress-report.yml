@@ -33,10 +33,6 @@ test-cases:
     status: pass
 
   - summary: |
-     Проверка просмотра товара в корзине
-    status: pass
-
-  - summary: |
      Проверка оформления заказа
     status: fail
 
@@ -45,11 +41,11 @@ test-cases:
     status: fail
 
   - summary: |
-     Проверка бейджа корзины
+     Проверка бейджа на иконке корзины при добавлении товаров
     status: pass
  
   - summary: |
-     Проверка адаптивности домашней страницы
+     Проверка мобильной версии сайта
     status: pass
 
   - summary: |
